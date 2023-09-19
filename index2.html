@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mob-Store</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     
     
-
+ <nav>
     <div id="header">
-        <p class="heading">Products</p>
-        <p class="heading">About Us</p>
-        <p class="heading">Contact Us</p>
+        <p class="heading"><a href="#Products">Products</a></p>
+        <p class="heading"><a href="#about-us">About Us</a></p>
+        <p class="heading"><a href="#contact-us">Contact Us</a></p>
         <br>
         <br>
         <hr>
 
     </div>
+ </nav>
 
 
     
@@ -33,25 +35,52 @@
 
     
     
-    <div class="products">
+    <div id="products">
         <p>Our Products:</p>
         <br>
         <ol>
-            <li><p class="pro1">M21</p></li>
+            <li><p class="pro1"><h4>Jonita</h4><br><img src="https://static.toiimg.com/photo/msid-80711817/80711817.jpg"></p>
+                <p>very reliable</p>
+            </li>
+            <br>
+            <br>
+            <li><p class="pro2"><h4>Neha</h4><br><img src="https://www.bollywoodhungama.com/wp-content/uploads/2021/07/Neha-Sharma-exudes-oomph-in-sultry-photos-dons-halter-neck-and-thigh-high-slit-dress1.jpg"></p>
+                <p>way more reliable</p>
+            </li>
         </ol>
 
     </div>
 
+    <hr>
+
     
     
-    <div class="about-us">
+    <div id="about-us">
+        <h2>ABOUT US</h2>
+        <p class="moto">We are a group of tech enthusiasts working hard day and night to bring best solutions to your tech problems</p>
 
     </div>
 
+    <hr>
+
 
     
     
-    <div class="contact-us">
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
 
     </div>
 
@@ -59,6 +88,9 @@
     
     
     <div class="footer">
+        <footer>
+            <p>&copy; 2023 Mob-Store | All rights reserved.</p>
+        </footer>
 
     </div>
 
